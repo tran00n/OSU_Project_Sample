@@ -53,32 +53,12 @@ img{
 }
 
 tr {
-    background-color: white;
-    
+    background-color: white;  
 }
 
 td {
     padding: 5px;
     vertical-align:middle;
-}
-
-#selectsort {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-}
-
-option {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    background-color: blue;
-}
-
-#selectsubmit {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 6px;
-    background-color: orange;
-    border-style: double;
-    border-color: black;
 }
 
 label {
