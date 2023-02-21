@@ -10,8 +10,8 @@ table {
 }
 
 th {
-    background-color: rgb(215, 63, 9);
-    
+    background-color: rgba(215, 63, 9, 0.81);
+    padding: 10px;
 }
 
 h1 {
@@ -57,7 +57,7 @@ tr {
 }
 
 td {
-    padding: 5px;
+    padding: 7px;
     vertical-align:middle;
 }
 
