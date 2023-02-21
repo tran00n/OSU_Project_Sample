@@ -3,7 +3,7 @@ thead {
 }
 
 table {
-    padding: 30px;
+    padding:30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
     margin: auto;
@@ -11,7 +11,14 @@ table {
 
 th {
     background-color: rgba(215, 63, 9, 0.81);
-    padding: 10px;
+    padding:10px;
+    color: white;
+    
+}
+
+#arrow {
+    position: relative;
+    top: 2px;
 }
 
 h1 {
@@ -53,15 +60,37 @@ img{
 }
 
 tr {
-    background-color: white;  
+    background-color: white;
+    
 }
 
 td {
     padding: 7px;
     vertical-align:middle;
+    border: 3px rgba(215, 63, 9, 0.81);
+}
+
+#selectsort {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+option {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    background-color: blue;
+}
+
+#selectsubmit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6px;
+    background-color: orange;
+    border-style: double;
+    border-color: black;
 }
 
 label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
+    padding-bottom: 1em;
 }
