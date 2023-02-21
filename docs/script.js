@@ -37,10 +37,12 @@ function sortbydist() {
     if (asc==true) {
         val1 = -1;
         val2 = 1;
+        document.getElementById("arrow").src = "up.png";
     }
     else {
         val1 = 1;
         val2 = -1;
+        document.getElementById("arrow").src = "down.png";
     }
     sorted_distance = Object.keys(dict).sort(
         function(a,b) {
