@@ -14,22 +14,24 @@
         <div id="table-container">
             <h1> Geolocation Report </h1>
             <label> Click on headers to sort </label>
+           
             <table>
                 <thead>
                     <tr id="table-header">
                         <th> City </th>
                         <th> Latitude </th>
                         <th> Longitude </th>
-                        <th onclick="sortbydist()"> Distance from OSU </th>
+                        <th onclick="sortbydist()"> Distance from OSU <img id="arrow" src="updown.png"> </th>
                     </tr>
                 </thead>
                 <tbody id="data-output">
 
                 </tbody>
             </table>
+
+            <a href="button.html"> Click here to see Part 2 </a>
         </div>
     </div>
-   
             <script src="script.js"> </script>
     </body>
 </html>
